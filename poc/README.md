@@ -30,3 +30,5 @@ About RAG - https://blogs.nvidia.com/blog/what-is-retrieval-augmented-generation
 LangChain4j - use the power of LLMs in java - https://www.youtube.com/watch?v=x8kkjmCZTaw
 
 ![img.png](img.png)
+
+https://youtu.be/K2lCh1OrAEo
