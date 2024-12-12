@@ -16,6 +16,8 @@ import java.nio.file.FileSystems;
 import java.nio.file.PathMatcher;
 import java.util.List;
 
+//RAG (Retrieval-Augmented Generation)
+//LLM's knowledge is limited to the data it has been trained on.
 public class RagServiceExample {
     public static void main(String[] args) {
         ChatService chatService = new ChatService();
@@ -31,8 +33,7 @@ public class RagServiceExample {
                 .contentRetriever(EmbeddingStoreContentRetriever.from(embeddingStore))
                 .build();
 
-        String answer = assistant.chat("What will happen if I forgot to pay my Smart6 bills? Did they mention something?");
-        //String answer = assistant.chat("O que acontecerá se eu esquecer de pagar a fatura da Smart6?");
+        String answer = assistant.chat("What is the address that is mentioned inside mtg-rules.pdf?");
         System.out.println(answer);
     }
 }
