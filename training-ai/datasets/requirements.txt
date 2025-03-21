@@ -1,0 +1,6 @@
+pandas
+scikit-learn
+scipy
+surprise
+numpy
+Flask
